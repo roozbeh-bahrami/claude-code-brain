@@ -1,6 +1,10 @@
 # SESSION-CLOSE — capture, update, hand off
 
-> Run at a REAL close only: context nearly full, or the human says stop. Task-finished ≠ session over.
+> Run at a REAL close only: **the human says stop.** Task-finished ≠ session over.
+>
+> *Amended 2026-09-03: "context nearly full" was a close trigger here and is not one any more.
+> The context ladder is warn-only — it reports depth and closes nothing (mb-knowledge
+> START-HERE.md Rule 12, IIP-022 amended 2026-08-29). No hook runs this ritual.*
 
 **Run these in order.**
 
